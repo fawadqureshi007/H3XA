@@ -262,4 +262,3 @@ H3XA queries third-party services directly using target identifiers. **Always ob
 * `--hudson` mode transmits target inputs to Hudson Rock API services.
 * All generated outputs are intelligence leads—verify findings independently before acting.
 
-```
