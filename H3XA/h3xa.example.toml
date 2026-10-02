@@ -1,0 +1,34 @@
+# Copy to h3xa.toml. Everything here is optional; these are the defaults you'd most likely change.
+[general]
+profile = "standard"      # quick | standard | deep
+timeout = 900             # seconds per tool run
+max_parallel = 4
+
+[pivot]
+depth = 1                 # follow-up rounds (deep profile forces >= 2)
+max_targets = 8           # hard cap on total targets in one case
+emails = "verified"       # verified = only e-mails a tool read from a structured field | all | none
+usernames = "verified"
+derive_username = false   # guess username from e-mail local-part (weak; low confidence)
+
+[user-scanner]
+allow_loud = false        # true = also test modules that may notify the target
+nsfw = true
+hudson = false            # true = send identifier to Hudson Rock (third party)
+
+[h8mail]
+config = ""               # path to your h8mail config file with API keys (HIBP, Snusbase, ...)
+
+[spiderfoot]
+mode = "passive"          # passive | footprint | investigate | all
+kinds = ["domain", "ip", "phone", "name"]
+
+[osintgram]
+backend = ""              # "hikerapi" | "instagrapi" | "" = auto. Token: env HIKERAPI_TOKEN
+limit_posts = 30
+followers = false         # opt-in: costs API credits, touches many third parties
+followings = false
+
+# Use an already-installed interpreter instead of .venvs/<tool>:
+# [python]
+# holehe = "/usr/bin/python3"

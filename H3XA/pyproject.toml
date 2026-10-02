@@ -1,0 +1,16 @@
+[project]
+name = "h3xa"
+version = "1.2.0"
+description = "Unified OSINT orchestrator: runs 8 tools, correlates, pivots, reports"
+requires-python = ">=3.11"
+dependencies = []          # stdlib only; each wrapped tool lives in its own venv
+
+[project.scripts]
+h3xa = "h3xa.cli:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["h3xa*"]

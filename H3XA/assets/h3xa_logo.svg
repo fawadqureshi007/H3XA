@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#aa3cff"/></linearGradient></defs>
+<rect width="512" height="512" rx="85" fill="#0a0c14"/>
+<polygon points="442.2,363.5 256.0,471.0 69.8,363.5 69.8,148.5 256.0,41.0 442.2,148.5" fill="none" stroke="url(#g)" stroke-width="18"/>
+<polygon points="385.9,331.0 256.0,406.0 126.1,331.0 126.1,181.0 256.0,106.0 385.9,181.0" fill="none" stroke="url(#g)" stroke-width="6"/>
+<text x="256" y="292" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="700" font-size="104" fill="url(#g)">H3XA</text>
+<line x1="154" y1="358" x2="358" y2="358" stroke="#aa3cff" stroke-width="4"/>
+</svg>
